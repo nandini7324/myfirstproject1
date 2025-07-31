@@ -2,7 +2,7 @@ dict={"1.hero":"50 RS",
       "2.honda":"70 RS",
       "3.yamaha":"90 RS"}
 hero=50
-honda=70
+zero=70
 yamaha=90
 available_bike=10 
 while True:
@@ -25,7 +25,7 @@ while True:
          total=b*hero*c
          print(f"{a} , rented hero for {c} hours. total : {total}" )
       if b==2 :
-         total=b*honda*c
+         total=b*zero*c
          print(f"{a} , rented honda for {c} hours. total : {total} "  )
       if b==3 :
          total=b*yamaha*c
